@@ -22,6 +22,7 @@ const at = (hours, minutes = 0) => {
     plus: (number) => at(hours, minutes + number),
     minus: (number) => at(hours, minutes - number),
     equals: (aTime) => time == aTime
+    //------ or ------ time === aTime.toString()
   };
 };
 
